@@ -49,7 +49,7 @@ Insert six of your favorite books into the library.  Make sure that these are yo
 ### Step 3 Insert Patrons into the Library
 Insert five of your friends as patrons into the library. Make sure that these are not randomly generated. 
 
-### Step 3: Queries 
+### Step 4: Queries 
 For each of the queries below, write the query and include the results. 
 
 1. Write a query to find the titles of all books that have at least one copy available for checkout. 
