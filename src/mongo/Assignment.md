@@ -32,7 +32,7 @@ https://www.mongodb.com/docs/manual/reference/operator/query/regex/
     https://www.mongodb.com/docs/languages/python/pymongo-driver/current/
 
     https://www.mongodb.com/docs/ruby-driver/current/
-    
+
 
 
 ## Part 3 (15 pts): Create and populate a database to hold library books and patrons.
@@ -75,15 +75,27 @@ Hint: Use $gte and $lt operators to specify a date range from January 1, 2024 to
 Complete the "Find" homework in Day 2.
 
 1. Find a shortcut for admin commands. Write the shortcut here.
+here are few admin commands shortcuts
 
+db.runCommand("top")
+db.runCommand({connectionStatus: 1})
+db.serverstatus()
 
 2. Find the online documentation for queries and cursors. Write the URL here.
-
+https://www.mongodb.com/docs/manual/core/cursors/?msockid=27c5d1c0423c6d261d77c4ad43c16cdd
 
 3. Find the MongoDB documentation for mapreduce. Write the URL here.
+https://www.mongodb.com/docs/manual/core/map-reduce/
 
 
 4. Through the JavaScript interface, investigate the code for three collections
     functions: help(), findOne(), and stats(). Past the code for each below.
     For each, write a one-sentence insight that you learned by looking at
     the code.
+    
+    db.books.help()
+    the help() lists all the available methods for the books collection.
+    db.books.findOne()
+    the findOne() function returns a single document from the collection
+    db.books.stats()
+    this function provides detailed metrics about the collection.
